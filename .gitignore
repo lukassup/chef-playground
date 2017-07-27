@@ -1,7 +1,9 @@
+*.rpm
+.chef/admin.pem
+.chef/syntaxcache/
+.chef/trusted_certs/
 .ssh_config
-.chef/
 .vagrant/
-roles/
 Berksfile
 Berksfile.lock
-*.rpm
+roles/
