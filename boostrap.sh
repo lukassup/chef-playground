@@ -78,7 +78,8 @@ for node in node-1 node-2 node-3; do
     --ssh-user vagrant \
     --sudo \
     --identity-file "./.vagrant/machines/$node/libvirt/private_key" \
-    --node-name -r 'role[base]' "$node" 
+    --run-list 'role[base]' \
+    --node-name "$node" 
 done
 
 
