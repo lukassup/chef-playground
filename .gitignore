@@ -1,0 +1,7 @@
+.ssh_config
+.chef/
+.vagrant/
+roles/
+Berksfile
+Berksfile.lock
+*.rpm
